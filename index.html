@@ -10,6 +10,7 @@
       font-family: Arial, sans-serif;
       background-color: #fff8f5;
       color: #333;
+      text-align: center;
     }
     header {
       background-color: #f4d6cc;
@@ -29,40 +30,19 @@
       border-radius: 4px;
       cursor: pointer;
     }
-    main {
-      padding: 1rem;
-    }
     .section-link {
+      display: block;
       background-color: #ffe6e1;
       padding: 1rem;
-      margin: 1rem 0;
+      margin: 1rem auto;
+      width: 80%;
       border-radius: 8px;
-      text-align: center;
       font-size: 1.2rem;
       text-decoration: none;
       color: #333;
-      display: block;
     }
     .section-link:hover {
       background-color: #ffd6cc;
-    }
-    .resource-button {
-      display: flex;
-      align-items: center;
-      background-color: #fff;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      padding: 0.5rem;
-      margin: 0.5rem 0;
-      text-decoration: none;
-      color: #333;
-    }
-    .resource-button img {
-      height: 40px;
-      margin-right: 1rem;
-    }
-    .resource-button:hover {
-      background-color: #fbe5df;
     }
   </style>
   <script>
@@ -83,46 +63,9 @@
   </header>
 
   <main>
-    <a href="#jefferson" class="section-link">Jefferson County</a>
-    <a href="#shelby" class="section-link">Shelby County</a>
-    <a href="#spanish" class="section-link">Español</a>
-
-    <section id="jefferson">
-      <h2>Jefferson County Resources</h2>
-      <a class="resource-button" href="https://oneplacebirmingham.com/" target="_blank">
-        <img src="one_place_logo.png" alt="One Place Logo" />
-        One Place Family Justice Center
-      </a>
-      <a class="resource-button" href="https://ywcabham.org/" target="_blank">
-        <img src="ywca_logo.png" alt="YWCA Logo" />
-        YWCA Central Alabama
-      </a>
-      <a class="resource-button" href="https://www.jccal.org/Default.asp?ID=654&pg=Domestic+Violence+Liason+%28DVL%29" target="_blank">
-        Domestic Violence Liaison
-      </a>
-    </section>
-
-    <section id="shelby">
-      <h2>Shelby County Resources</h2>
-      <a class="resource-button" href="https://safehouse.org/" target="_blank">
-        <img src="safehouse_logo.png" alt="SafeHouse Logo" />
-        SafeHouse
-      </a>
-      <a class="resource-button" href="https://shelby.alacourt.gov/petition-for-protection-from-abuse/" target="_blank">
-        Protection from Abuse Petition
-      </a>
-      <a class="resource-button" href="https://www.alabamalegalhelp.org/issues/families-and-children/domestic-violence" target="_blank">
-        Alabama Legal Help
-      </a>
-    </section>
-
-    <section id="spanish">
-      <h2>Recursos en Español</h2>
-      <a class="resource-button" href="https://hicaalabama.org/en/home" target="_blank">
-        <img src="hica_logo.png" alt="HICA Logo" />
-        HICA Alabama
-      </a>
-    </section>
+    <a href="jefferson.html" class="section-link">Jefferson County</a>
+    <a href="shelby.html" class="section-link">Shelby County</a>
+    <a href="spanish.html" class="section-link">Español</a>
   </main>
 </body>
 </html>
