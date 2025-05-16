@@ -11,13 +11,26 @@
       font-family: 'Quicksand', sans-serif;
       background-color: #fdf3f9;
       color: #3a2d4d;
-      padding: 1.5rem;
       font-size: 1.15rem;
+    }
+    header {
+      background-color: #f3dae9;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      height: 60px;
     }
     h1 {
       text-align: center;
       color: #5e3c68;
       font-size: 2.2rem;
+      margin: 1rem;
+    }
+    main {
+      padding: 1.5rem;
     }
     .resource-button {
       display: flex;
@@ -43,7 +56,24 @@
   </style>
 </head>
 <body>
-  <h1>Shelby County Resources</h1>
-  <a class="resource-button" href="https://safehouse.org/" target="_blank"><img src="safehouse_logo_new.png" alt="SafeHouse Logo" />SafeHouse</a><a class="resource-button" href="https://shelby.alacourt.gov/petition-for-protection-from-abuse/" target="_blank">Protection from Abuse Petition</a><a class="resource-button" href="https://www.alabamalegalhelp.org/issues/families-and-children/domestic-violence" target="_blank">Alabama Legal Help</a>
+  <header>
+    <img src="shelby_logo.png" alt="Shelby Logo" class="logo" />
+    <h1>Shelby County Resources</h1>
+    <img src="shelby_logo.png" alt="Shelby Logo" class="logo" />
+  </header>
+  <main>
+    <a class="resource-button" href="https://safehouse.org/" target="_blank">
+      <img src="safehouse_logo_new.png" alt="SafeHouse Logo" />
+      SafeHouse
+    </a>
+    <a class="resource-button" href="https://shelby.alacourt.gov/petition-for-protection-from-abuse/" target="_blank">
+      <img src="protection_logo.png" alt="Protection Logo" />
+      Protection from Abuse Petition
+    </a>
+    <a class="resource-button" href="https://www.alabamalegalhelp.org/issues/families-and-children/domestic-violence" target="_blank">
+      <img src="legal_help_logo.png" alt="Legal Help Logo" />
+      Alabama Legal Help
+    </a>
+  </main>
 </body>
 </html>

@@ -11,13 +11,26 @@
       font-family: 'Quicksand', sans-serif;
       background-color: #fdf3f9;
       color: #3a2d4d;
-      padding: 1.5rem;
       font-size: 1.15rem;
+    }
+    header {
+      background-color: #f3dae9;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      height: 60px;
     }
     h1 {
       text-align: center;
       color: #5e3c68;
       font-size: 2.2rem;
+      margin: 1rem;
+    }
+    main {
+      padding: 1.5rem;
     }
     .resource-button {
       display: flex;
@@ -43,7 +56,24 @@
   </style>
 </head>
 <body>
-  <h1>Jefferson County Resources</h1>
-  <a class="resource-button" href="https://oneplacebirmingham.com/" target="_blank"><img src="one_place_logo.png" alt="One Place Family Justice Center Logo" />One Place Family Justice Center</a><a class="resource-button" href="https://ywcabham.org/" target="_blank"><img src="ywca_logo.png" alt="YWCA Central Alabama Logo" />YWCA Central Alabama</a><a class="resource-button" href="https://www.jccal.org/Default.asp?ID=654&pg=Domestic+Violence+Liason+%28DVL%29" target="_blank">Domestic Violence Liaison</a>
+  <header>
+    <img src="jefferson_logo.png" alt="Jefferson Logo" class="logo" />
+    <h1>Jefferson County Resources</h1>
+    <img src="jefferson_logo.png" alt="Jefferson Logo" class="logo" />
+  </header>
+  <main>
+    <a class="resource-button" href="https://oneplacebirmingham.com/" target="_blank">
+      <img src="one_place_logo.png" alt="One Place Logo" />
+      One Place Family Justice Center
+    </a>
+    <a class="resource-button" href="https://ywcabham.org/" target="_blank">
+      <img src="ywca_logo.png" alt="YWCA Logo" />
+      YWCA Central Alabama
+    </a>
+    <a class="resource-button" href="https://www.jccal.org/Default.asp?ID=654&pg=Domestic+Violence+Liason+%28DVL%29" target="_blank">
+      <img src="dv_liaison_logo.png" alt="DV Liaison Logo" />
+      Domestic Violence Liaison
+    </a>
+  </main>
 </body>
 </html>
